@@ -1,0 +1,26 @@
+.card-header{
+    width: auto;
+    display: flex;
+}
+.card-header button{
+background-color: transparent;
+border: none;
+}
+.img_name_user{
+    width: 50%;
+}
+.menu_publi{
+    width: 50%;
+
+    
+}
+.menu_publi button{
+    margin-left: 70%;
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+
+
+

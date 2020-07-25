@@ -1,0 +1,618 @@
+<HTML>
+<HEAD>
+<TITLE>
+Column Reports : Diccionario De Datos EyeForEye &nbsp;&nbsp;(C:\Users\Naxo\Desktop\Modelo de datos EyeForEye_cambios.erwin, &nbsp;jueves, 23 de abril de 2020 12:34:32, 84 rows)
+</TITLE>
+</HEAD>
+<BODY>
+<FONT FACE="Arial" SIZE="4"><B>
+<H1  ALIGN="CENTER">Diccionario De Datos EyeForEye</H1>
+</B>
+</FONT>
+<FONT FACE="Arial" SIZE="3">
+
+<P>
+<P><TABLE BORDER>
+<TR>
+<FONT FACE="Arial" SIZE="3"><B>
+<TH>Column Table Name</TH>
+<TH>Column Table Comment</TH>
+<TH>Column Name</TH>
+<TH>Column Datatype</TH>
+<TH>Column Comment</TH>
+</B>
+</FONT>
+</TR>
+<FONT FACE="Arial" SIZE="3">
+<TR>
+<TD>Usuario</TD>
+<TD>Tabla que contiene los datos del usuario que usa la aplicacion</TD>
+<TD>Run_User</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador ( Run) del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Nombre_User</TD>
+<TD>VARCHAR(20)</TD>
+<TD>Nombre del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Apellido_User</TD>
+<TD>&nbsp</TD>
+<TD>Apellidos del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Clave</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Contraseña del Usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>CorreoElectronico</TD>
+<TD>VARCHAR()</TD>
+<TD>Email del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Img_Carnet_delante</TD>
+<TD>VARBINARY</TD>
+<TD>Imagen del carnet o documento de indentificacion por la parte delantera del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Img_Rostro</TD>
+<TD>&nbsp</TD>
+<TD>Imagen del usuario de frente para la comprobacion y sirve para la foto de perfil</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Img_PapelAntecedente</TD>
+<TD>&nbsp</TD>
+<TD>Imagen del certificado de antecedentes &nbsp;del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_Estado</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion del estado del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>NumeroTelefonico</TD>
+<TD>NUMERIC(9)</TD>
+<TD>Numero de celular del usuario ( solo uno)</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Direccion</TD>
+<TD>VARCHAR(30)</TD>
+<TD>Direccion donde vive el usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_Ciudad</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion de la ciudad</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Sexo</TD>
+<TD>CHAR(1)</TD>
+<TD>Sexo del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Img_CarnetAtras</TD>
+<TD>VARBINARY</TD>
+<TD>Imagen del carnet o documento de indentificacion por la parte trasera del usuario</TD>
+</TR>
+<TR>
+<TD>Estado</TD>
+<TD>Tabla que contiene que el estado de ola cuenta del usuario</TD>
+<TD>ID_Estado</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion del estado del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>tipo_estado</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Nombre del estado para un usuario ( Disponible, Suspendido, Bloquiado)</TD>
+</TR>
+<TR>
+<TD>Ciudad</TD>
+<TD>Tabla que contiene las ciudades disponibles</TD>
+<TD>ID_Ciudad</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion de la ciudad</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Ciudad</TD>
+<TD>VARCHAR(20)</TD>
+<TD>Nombre de la ciudad</TD>
+</TR>
+<TR>
+<TD>Mensaje</TD>
+<TD>Tabla que almacena los datos y mensajes enviados entre los usuarios</TD>
+<TD>ID_Mensaje</TD>
+<TD>INTEGER</TD>
+<TD>Identificador de los mensajes</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Contenido</TD>
+<TD>VARCHAR()</TD>
+<TD>Mensaje que se envia</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>RutDestino</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador del usuario que recibe el mensaje</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Respuesta</TD>
+<TD>VARCHAR()</TD>
+<TD>Respuesta al mensaje recibidp</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Run_Emisor</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador ( Run) del usuario</TD>
+</TR>
+<TR>
+<TD>Valoraciones</TD>
+<TD>Tabla que contiene los datos de las valoraciones de los usuario</TD>
+<TD>Id_Valorizacion</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion de la valorizaciones</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Comentario</TD>
+<TD>VARCHAR()</TD>
+<TD>Comentario dejado por un usuario con respectoa otro usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Cant_Estrellas</TD>
+<TD>INTEGER</TD>
+<TD>Numero de estrellas puestas por un usuario a otro usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Run_Evaluador</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador ( Run) del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Fecha</TD>
+<TD>DATE</TD>
+<TD>Fecha en que se realizo la valorizacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Hora</TD>
+<TD>TIME</TD>
+<TD>Hora en que se realizo la valorizacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Run_Evaluado</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Run del usuario que fue evaluado</TD>
+</TR>
+<TR>
+<TD>Publicacion</TD>
+<TD>Tabla que contienes los datos de las publicaciones realizadas por los usuarios</TD>
+<TD>ID_Publicacion</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion de la publicacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Contenido</TD>
+<TD>VARCHAR()</TD>
+<TD>Contenido de la publicacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Fecha</TD>
+<TD>DATE</TD>
+<TD>Fecha en que se realizo la publicacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Hora</TD>
+<TD>TIME</TD>
+<TD>Hora en que se realizo la publicacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_TipoPublicacion</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion del tipo de publicacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_Categoria</TD>
+<TD>&nbsp</TD>
+<TD>Identificacion de las categorias</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_EstadoPubli</TD>
+<TD>&nbsp</TD>
+<TD>Identificacion del estado de la publicacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Run_Publicador</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador ( Run) del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_Historial</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion del historial</TD>
+</TR>
+<TR>
+<TD>Categoria</TD>
+<TD>Tabla que contiene las categorias disponibles para la publicacion de los favores</TD>
+<TD>ID_Categoria</TD>
+<TD>&nbsp</TD>
+<TD>Identificacion de las categorias</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>NombreCategoria</TD>
+<TD>VARCHAR(15)</TD>
+<TD>Nombre de la categoria</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Descripcion</TD>
+<TD>VARCHAR()</TD>
+<TD>Descripcion de las categorias</TD>
+</TR>
+<TR>
+<TD>TipoPublicacion</TD>
+<TD>Tabla que contiene los tipos de publicacion que existen (ofrecer, pedir)</TD>
+<TD>ID_TipoPublicacion</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion del tipo de publicacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Nombre_tipo</TD>
+<TD>VARCHAR(20)</TD>
+<TD>Nombre para los tipos de categorias ( Ofrecer, Pedir)</TD>
+</TR>
+<TR>
+<TD>Estado_Publicacion</TD>
+<TD>Tabla que contiene los estados de las publicaciones</TD>
+<TD>ID_EstadoPubli</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion del estado de la publicacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>NombreEstado</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Nombre del estado</TD>
+</TR>
+<TR>
+<TD>Denuncias</TD>
+<TD>Tabla que almacena las denuncias realizadas a las publicaciones</TD>
+<TD>ID_Denuncia</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion de la denuncia</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Cant_Denuncias</TD>
+<TD>&nbsp</TD>
+<TD>Cantidad de denuncias recibidas por la publicacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_EstadoDenun</TD>
+<TD>&nbsp</TD>
+<TD>Identificacion del estado de la denuncia</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Run_Denunciante</TD>
+<TD>VARCHAR(10)</TD>
+<TD></TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_Publicacion</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion de la publicacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Run_examinador</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador (Run) del administrador</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_Razon</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion de la razon de la denuncia</TD>
+</TR>
+<TR>
+<TD>EstadoDenuncia</TD>
+<TD>Tabla que almacena los datos para saber el estado de una denuncia</TD>
+<TD>ID_EstadoDenun</TD>
+<TD>&nbsp</TD>
+<TD>Identificacion del estado de la denuncia</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>NombreEstado</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Nombre que recibe la denuncia</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Descripcion</TD>
+<TD>VARCHAR()</TD>
+<TD>Explicacion del nombre de la denuncia</TD>
+</TR>
+<TR>
+<TD>Administrador</TD>
+<TD>Tabla que almacena los datos de los administradores</TD>
+<TD>Run_Admin</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador (Run) del administrador</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Nombre_Admin</TD>
+<TD>VARCHAR(20)</TD>
+<TD>Nombre del administrador</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Apellido_Admin</TD>
+<TD>&nbsp</TD>
+<TD>Apellido del administrador</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>NombreUsuario_Admin</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Nombre de usuario que utilizara el administrador</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Clave</TD>
+<TD>&nbsp</TD>
+<TD>Contraseña del administrador</TD>
+</TR>
+<TR>
+<TD>Notificaciones</TD>
+<TD>Tabla que almacenara las notificaciones que se han enviado o se enivaran</TD>
+<TD>ID_Notificacion</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion de las notificaciones</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Contenido</TD>
+<TD>VARCHAR()</TD>
+<TD>Contenido de las notificaciones</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Fecha</TD>
+<TD>DATE</TD>
+<TD>Fecha en que se realizo la notificacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Hora</TD>
+<TD>TIME</TD>
+<TD>Hora en que se realizo la notificacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_TipoNoti</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion del tipo de notificacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Admin_Envia</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador (Run) del administrador</TD>
+</TR>
+<TR>
+<TD>TipoNotificacion</TD>
+<TD>Tabla que contiene los tipo de notificaciones en la aplicacion</TD>
+<TD>ID_TipoNoti</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion del tipo de notificacion</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>NombreTipo</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Nombre del tipo de notificacion</TD>
+</TR>
+<TR>
+<TD>Reportes</TD>
+<TD>Tabla que contiene los reportes solicitados o realizados por el administrados o el usuario</TD>
+<TD>ID_Reporte</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion de los reportes</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Fecha</TD>
+<TD>DATE</TD>
+<TD>Fecha en que se realizo el reporte</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Hora</TD>
+<TD>TIME</TD>
+<TD>Hora en que se realizo el reporte</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Run_Encargado</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador (Run) del administrador</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Run_Asociado</TD>
+<TD>&nbsp</TD>
+<TD>Identificador ( Run) del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Id_Registro</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion del registro</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>ID_Historial</TD>
+<TD>&nbsp</TD>
+<TD>Identificacion del historial</TD>
+</TR>
+<TR>
+<TD>HistorialPublicacion</TD>
+<TD>Tabla que contiene los datos de los historiales de las publicaciones de los usuarios</TD>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Cant_Publicaciones</TD>
+<TD>&nbsp</TD>
+<TD>Cantidad de publicaciones realizadas</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Run_Asociado</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador ( Run) del usuario</TD>
+</TR>
+<TR>
+<TD>RegistroActividad</TD>
+<TD>Tabla que contiene los registros de las actividades que los usuarios han realizado en la aplicacion</TD>
+<TD>Id_Registro</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion del registro</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Run_Asociado</TD>
+<TD>VARCHAR(10)</TD>
+<TD>Identificador ( Run) del usuario</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Actividad</TD>
+<TD>VARCHAR()</TD>
+<TD>Actividades realizadas por el usuario</TD>
+</TR>
+<TR>
+<TD>RazonDenuncia</TD>
+<TD>Tabla que almacena las razones disponibles para realizar las denuncias</TD>
+<TD>ID_Razon</TD>
+<TD>INTEGER</TD>
+<TD>Identificacion de la razon de la denuncia</TD>
+</TR>
+<TR>
+<TD>&nbsp</TD>
+<TD>&nbsp</TD>
+<TD>Motivo</TD>
+<TD>VARCHAR(20)</TD>
+<TD>Razon por la cual se realiza la denuncia</TD>
+</TR>
+</FONT>
+</TABLE>
+</FONT></BODY>
+</HTML>

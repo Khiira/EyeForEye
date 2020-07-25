@@ -1,0 +1,116 @@
+body{
+    background-color: #412266;
+}
+/*nav_bar_user*/
+.logo{
+    margin-left: 2%;
+    margin-right: 15%;
+    font-size: 200%;
+}
+.menu{
+    margin-right: 2%;
+    margin-bottom: 1.5%;
+    color: #797979;
+}
+.o{
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: -0.1%;
+}
+.menu_icons_nav{
+    width: 25%;
+    
+}
+.menu_icons_nav li{
+    margin-right: 5%;
+    margin-left: 5%;
+    
+
+}
+.menu_icons_nav a{
+    height: 100px;
+}
+.btn_icons{
+    border-radius: 100%;
+    width: 100%;
+    margin-right: 30%;
+}
+.btn_icons:hover{
+    color: white;
+}
+
+/*buttons paginas*/
+
+.btn_pag a{
+text-decoration: none;
+}
+.btn_pasos{
+background-color: transparent;
+height: 50px;
+border-style: none;
+}
+
+.btn_pasos:hover{
+    background-color: #3A3B3C;
+}
+
+
+/*Card_Content*/
+.publis{
+    margin-bottom: 5%;
+}
+.card{
+    margin-top: 10%;
+}
+
+.btn_img_user{
+    border-radius: 100%;
+    margin-right: 5%;
+}
+.menu_icons_cards{
+    margin-left: 70%;
+    margin-right: 2%;
+}
+
+.card-footer a{
+text-decoration: none;
+color: black;
+}
+/*amigos*/
+
+.sector_amigos{
+    margin-top: 5%;
+    color: whitesmoke;
+}
+
+/*Admin0*/
+.content-dashboard{
+    margin-top: 10%;
+    color: white;
+}
+.content-avisos{
+    margin-top: 10%;
+    color: white;
+}
+
+table{
+    width: 100%;
+    border: solid 1px whitesmoke;
+    color: white;
+    
+}
+table tr{
+    text-align: center;
+    background-color: blueviolet;
+    border: solid 1px whitesmoke;
+}
+table td{
+    border: solid 1px whitesmoke;
+}
+.img_content{
+    width: 60%;
+}
+.img_user{
+    width: 20%;
+    border-radius: 100%;
+}
